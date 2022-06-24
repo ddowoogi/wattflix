@@ -4,7 +4,6 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="viewport" content="minimum-scale=10">
         <title>WatFlix</title>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
         <link rel="stylesheet" href="index.css">
@@ -45,10 +44,21 @@
                         <span class="material-symbols-outlined">group</span>
                         <span class="link-text">Group</span>
                     </a>
-                    <a href="" class="footer-item">
+                    <a onclick="login_dropdown()" class="footer-item">
                         <span class="material-symbols-outlined">login</span>
                         <span class="link-text">Login</span>
                     </a>
+                    <div id="login-div">
+                        <form id="login-form">
+                            <div id="input-div">
+                                <input type="text" placeholder="Email" id="username">
+                                <input type="password" placeholder="Password" id="password"></div>
+                            <button id="input-btn">
+                                <span>Login</span>
+                            </button>
+                        </form>
+                    </div>
+    
                     <a href="" class="footer-item">
                         <span class="material-symbols-outlined">person_add</span>
                         <span class="link-text">Sign up</span>
