@@ -1,0 +1,91 @@
+/* @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css'); */
+
+
+* { 
+    font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', sans-serif;
+}
+
+html{
+    height: 100%;
+}
+
+body {
+    min-width: 800px;
+    min-height: 100%;
+    margin: 0px;
+    background: linear-gradient( #212121, #0F0F0F);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+nav {
+    margin: 0px;
+    width: 20%;
+    position: fixed;
+    height: 100%;
+    display: flex;
+}
+
+main {
+    width: 80%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+}
+
+
+.nav-outter{
+    display: block;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-icon {
+    padding: 0px;
+    display: block;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+}
+
+.icon-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.icon-item > span {
+    color: #D7E1E1;
+    font-size: 30pt;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left : 15px;
+}
+
+.nav-menu {
+    display: flex;
+    flex-direction:column;
+    align-items: baseline;
+    margin-top: 30px;
+    margin-left: 10px;
+
+}
+
+.nav-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nav-item > span{
+    color: #D7E1E1;
+    margin: 10px;
+    font-size: 20pt;
+}
+
+#plain-text {
+    color: #D7E1E1;
+}
+
