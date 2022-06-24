@@ -146,11 +146,13 @@ a{
 }
 
 .movieItem img {
+    border-radius: 15px;
 }
 
 .moviePoster {
     color: orange;
     position:relative;
+    align-self: center;
 }
 
 .movieItem .movieInfo {
@@ -162,8 +164,8 @@ a{
     opacity: 0;
 }
 
-.movieItem .mark {
-
+.movieItem .noMark {
+    visibility: hidden;
 }
 
 
