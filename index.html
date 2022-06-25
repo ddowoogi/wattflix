@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>WatFlix</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="main.css">
+        <script src="jquery-3.6.0.min.js"></script>
+        <script src="index.js"></script>
+    
+    </head>
+    <body>
+        <!-- navbar 부분입니다 -->
+        <nav>
+            <div class="nav-outter">
+                <div class="nav-icon">
+                    <a href="" class="icon-item">
+                        <span>WattFlix</span>
+                    </a>
+                </div>
+
+                <div class="nav-menu">
+                    
+                    <a href="" class="nav-item">
+                        <span class="material-symbols-outlined">home</span>
+                        <span class="link-text">Home</span>
+                    </a>
+                    
+                    <a href="" class="nav-item">
+                        <span class="material-symbols-outlined">sort</span>
+                        <span class="link-text">Rank</span>
+                    </a>
+                    <a href="" class="nav-item">
+                        <span class="material-symbols-outlined">view_cozy</span>
+                        <span class="link-text">Poster</span>
+                    </a>
+                </div>
+
+                <div class="nav-footer">
+                    <a href="" class="footer-item">
+                        <span class="material-symbols-outlined">group</span>
+                        <span class="link-text">Group</span>
+                    </a>
+                    <a onclick="login_dropdown()" class="footer-item">
+                        <span class="material-symbols-outlined">login</span>
+                        <span class="link-text">Login</span>
+                    </a>
+                    <div id="login-div">
+                        <form id="login-form">
+                            <div id="input-div">
+                                <input type="text" placeholder="Email" id="username">
+                                <input type="password" placeholder="Password" id="password"></div>
+                            <button id="input-btn">
+                                <span>Login</span>
+                            </button>
+                        </form>
+                    </div>
+    
+                    <a href="" class="footer-item">
+                        <span class="material-symbols-outlined">person_add</span>
+                        <span class="link-text">Sign up</span>
+                    </a>
+                </div>
+
+            </div>
+        </nav>
+
+        <!-- main 안쪽에 작성하신 div 넣어주세요 -->
+        <main>
+            <div class="contents">
+                <div class="contents-banner">
+                    <span id="plain-text">WattFlix 인기 작품</span>
+                </div>
+                <div class="contents-scroll">
+                    
+                    <a id="movie">
+                        <img src="https://movie-phinf.pstatic.net/20190109_149/1546998123676c6LjJ_JPEG/movie_image.jpg?type=m203_290_2">
+                        <div id="movie-info">
+                            <p>영화 제목</p>
+                            <p>감독</p>
+                            <p>주연</p>
+                            <p>코멘트</p>
+                        </div>
+                    </a>
+                    <a id="movie">
+                        <img src="https://movie-phinf.pstatic.net/20190109_149/1546998123676c6LjJ_JPEG/movie_image.jpg?type=m203_290_2">
+                        <div id="movie-info">
+                            <p>영화 제목</p>
+                            <p>감독</p>
+                            <p>주연</p>
+                            <p>코멘트</p>
+                        </div>
+                    </a>
+                    <a id="movie">
+                        <img src="https://movie-phinf.pstatic.net/20190109_149/1546998123676c6LjJ_JPEG/movie_image.jpg?type=m203_290_2">
+
+                    </a>
+                    <a id="movie">
+                        <img src="https://movie-phinf.pstatic.net/20180516_300/15264574387234QNai_JPEG/movie_image.jpg?type=m203_290_2">
+
+                    </a>
+                    <a id="movie">
+                        <img src="https://movie-phinf.pstatic.net/20190122_81/1548118455965SCCSW_JPEG/movie_image.jpg?type=m203_290_2">
+
+                    </a>
+                    <a id="movie">
+                        <img src="https://movie-phinf.pstatic.net/20211210_72/1639104921350Pk5gh_JPEG/movie_image.jpg?type=m203_290_2">
+
+                    </a>
+                    <a id="movie">
+                        <img src="https://movie-phinf.pstatic.net/20160119_278/14531650465287bcuk_JPEG/movie_image.jpg?type=m203_290_2">
+
+                    </a>
+                    <a id="movie">
+                        <img src="https://movie-phinf.pstatic.net/20111222_233/1324486884038nu8Xk_JPEG/movie_image.jpg?type=m203_290_2">
+
+                    </a>
+                    <a id="movie">
+                        <img src="https://movie-phinf.pstatic.net/20150924_194/1443056454769VJKkL_JPEG/movie_image.jpg?type=m203_290_2">
+
+                    </a>
+                    <a id="movie">
+                        <img src="https://movie-phinf.pstatic.net/20210315_143/1615793538419tIM2B_JPEG/movie_image.jpg?type=m203_290_2">
+
+                    </a>
+                
+            </div>
+
+            <div class="screening">
+                <div class="screening-banner">
+                    <span id="plain-text">New Movies on Theaters</span>
+                </div>
+                <div class="screening-scroll">
+                    <a href="asdf.com" id="movie">
+                        <img src="https://movie-phinf.pstatic.net/20220615_63/1655270906406BGdFF_JPEG/movie_image.jpg?type=m203_290_2">
+                    </a>
+                    <a id="movie">
+                        <img src="https://movie-phinf.pstatic.net/20220516_144/1652665409592Chvey_JPEG/movie_image.jpg?type=m203_290_2">
+
+                    </a>
+                    <a id="movie">
+                        <img src="https://movie-phinf.pstatic.net/20220616_274/1655363103107UB9nG_JPEG/movie_image.jpg?type=f125">
+
+                    </a>
+                    <a id="movie">
+                        <img src="https://movie-phinf.pstatic.net/20220511_189/1652251073330PXNoG_JPEG/movie_image.jpg?type=m203_290_2">
+
+                    </a>
+                    <a id="movie">
+                        <img src="https://movie-phinf.pstatic.net/20220516_144/1652687286550mcE4G_JPEG/movie_image.jpg?type=m203_290_2">
+
+                    </a>
+                    <a id="movie">
+                        <img src="https://movie-phinf.pstatic.net/20220509_176/1652081912471yhg3N_JPEG/movie_image.jpg?type=m203_290_2">
+
+                    </a>
+                    <a id="movie">
+                        <img src="https://movie-phinf.pstatic.net/20220504_257/1651659031710cXQVx_PNG/movie_image.jpg?type=m203_290_2">
+
+                    </a>
+                    <a id="movie">
+                        <img src="https://movie-phinf.pstatic.net/20220504_33/165164173504831gKe_JPEG/movie_image.jpg?type=m203_290_2">
+
+                    </a>
+                    <a id="movie">
+                        <img src="https://movie-phinf.pstatic.net/20220510_209/1652173423913czGcU_JPEG/movie_image.jpg?type=m203_290_2">
+
+                    </a>
+                </div>
+            </div>
+
+            </div>
+        </main>
+
+
+    </body>
+</html>
