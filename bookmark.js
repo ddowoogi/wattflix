@@ -27,7 +27,7 @@ $(document).ready(function(){
         let movieInfo = $movieInfo.eq(index);
         $(this).on('mouseover',function(){
             img.css('opacity',0.4);
-            movieInfo.css('opacity',1);
+            movieInfo.fadeTo(300,1);;
             $(this).css('box-shadow','0 3px 5 black');
         })
         $(this).on('mouseout',function(){
@@ -37,12 +37,11 @@ $(document).ready(function(){
         $(this).on('click',function(){
             $(this).removeClass('marked');
             $(this).addClass('noMark');
+            $(this).fadeTo(500,0);
             $markCount = $('.marked').length;
             $('.comment').html("<h3>"+$userName+" 님,<br>더 많은 영화를<br>찾아보세요.</h3><br>보고싶어요 표시한 영화 <b>"+$markCount+"</b>개");
         })
         });
-
-    
 
 });
 
