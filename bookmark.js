@@ -12,13 +12,13 @@ $(document).ready(function(){
     });
 
     // 영화 추천 버튼
-    let $markCount = $('.movieItem img').length;
+    let $markCount = $('.marked').length;
     let $userName = "왓플릭스";
 
     $('.comment').html("<h3>"+$userName+" 님,<br>더 많은 영화를<br>찾아보세요.</h3><br>보고싶어요 표시한 영화 <b>"+$markCount+"</b>개");
 
     // 북마크 팝업
-    let $moviePoster = $('.moviePoster');
+    let $moviePoster = $('.marked');
     let $img = $('.movieItem img');
     let $movieInfo = $('.movieItem .movieInfo');
 
@@ -37,8 +37,12 @@ $(document).ready(function(){
         $(this).on('click',function(){
             $(this).removeClass('marked');
             $(this).addClass('noMark');
+            $markCount = $('.marked').length;
+            $('.comment').html("<h3>"+$userName+" 님,<br>더 많은 영화를<br>찾아보세요.</h3><br>보고싶어요 표시한 영화 <b>"+$markCount+"</b>개");
         })
         });
+
+    
 
 });
 
