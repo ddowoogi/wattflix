@@ -114,7 +114,7 @@ a{
 }
 
 /* -------------------북마크된 영화-------------------- */
-
+/* 추천버튼 */
 .movieList {
     margin-bottom: 3px;
     display: flex;
@@ -136,6 +136,7 @@ a{
     bottom: 15%;
 }
 
+/* 영화 리스트 */
 .movieList .movieItem {
     flex:1 150px;
     margin: 10px;
