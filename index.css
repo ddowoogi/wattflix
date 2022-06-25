@@ -123,16 +123,14 @@ main {
 }
 
 #login-div {
-    /* display: none; */
+    display: none;
     background-color: #1e1e1e;
     margin: 20px;
-    display: flex;
     flex-direction: row;
     border-style: solid;
     border-radius: 15px;
     border-color: #302c2d;
     border-width: 1px;
-    
 }
 
 #login-form{
