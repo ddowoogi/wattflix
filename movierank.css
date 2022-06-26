@@ -11,16 +11,23 @@
     text-align: center;
 }
 
-#mybtn{
-    width:100px;
+#mybtn {
+    padding: 8px;
+    border-radius: 20px;
+    width:50px;
+    margin: 3px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    align-items: center;
     margin:auto;
-    display: block;
-    
+    display:block;
 }
 
 #date{
-
-    width:100px;
+    padding: 8px;
+    border-radius: 20px;
+    width: 100px;
     border-top: none;
     border-left: none;
     border-right: none;
