@@ -25,4 +25,41 @@ var on_movie = [
     {"name" : "룸 쉐어링", "director": "이순성", "actor" : "나문희 최우성", "comment": "물러설 수 없는 동거가 시작된다!", "imgsrc" : "https://movie-phinf.pstatic.net/20220608_157/1654654613441kSez5_JPEG/movie_image.jpg?type=m203_290_2"}
 ]
 
+const bm = document.eve
+
+function bookmark(clicked_id){
+    var elem = document.getElementById(clicked_id);
+    if (elem.innerHTML === "bookmarks"){
+        elem.innerText = "bookmark_remove";
+    }else{
+        elem.innerText = "bookmarks";
+    }
+}
+
+
+// const contents = document.getElementById("contents-scroll");
+
+// let new_movie = document.createElement('a');
+// new_movie.setAttribute('class', 'movie');
+// let new_img = document.createElement('img');
+// let new_info = document.createElement('div');
+// new_info.setAttribute('id', 'movie-info')
+// let new_info_div = document.createElement('div');
+// let comment = document.createElement('p');
+// let title = document.createElement('p');
+// // let bookmark = document.createElement('span');
+// // bookmark.setAttribute('class', 'material-symbols-outlined');
+
+// new_info_div.appendChild(comment);
+// new_info_div.appendChild(title);
+// new_info.appendChild(new_info_div);
+// // new_info.appendChild(bookmark);
+// new_movie.appendChild(new_img);
+// new_movie.appendChild(new_info);
+
+// contents.appendChild(new_movie);
+
+// for (rec in rec_movies){
+//     console.log(rec_movies[rec]);
+// }
 
